@@ -59,7 +59,7 @@
                     <ul class="nav navbar-nav text-center">
                         <li><a href="#welcome" class="page-scroll smoothie">Welcome</a></li>
                         <li><a href="#wedding-date" class="page-scroll smoothie">Dates</a></li>
-                        <li><a class="navbar-brand smoothie" href="index.html">Confetti</a></li>
+                        <li><a class="page-scroll smoothie" href="index.html">|</a></li>
                         <li><a href="#info" class="page-scroll smoothie">Info</a></li>
                         <li><a href="#rsvp" class="page-scroll smoothie">RSVP</a></li>
                     </ul>
@@ -79,11 +79,11 @@
 
         <!-- Header -->
         <header id="headerwrap" class="backstretched fullheight">
-            <canvas id="fettiwrap"></canvas>
+            <!-- <canvas id="fettiwrap"></canvas> -->
             <div class="container vertical-center">
                 <div class="intro-text vertical-center text-center smoothie">
                     
-                    <div class="intro-heading wow fadeIn heading-font"><span class="secondary-font">Celebrating</span>Kaushik & Sylvia</div>
+                    <div class="intro-heading wow fadeIn heading-font"><span class="secondary-font">Celebrating</span> <hr style="width:20%;"/> <span class="secondary-font"><text style="font-size:60px;">Kaushik & Sylvia</text></span></div>
                 </div>
             </div>
         </header>
@@ -403,7 +403,7 @@
 
             </div>
         </section>-->
-        <hr class="col-sm-10 thin-hr" />
+        <hr class="col-sm-10 thin-hr"/>
         <section class="instafeed-wrapper dark-wrapper">
         	<div id="instafeed"></div>
         	<div class="instafeed-overlay">
@@ -464,9 +464,10 @@
     $(document).ready(function(){
        'use strict';
         jQuery('#headerwrap').backstretch([
-          //"assets/img/bg/bg1.jpg",
-          //"assets/img/bg/bg2.jpg",
-          "assets/img/bg/bg3.jpg"
+          "assets/img/bg/bg1.jpg",
+          "assets/img/bg/bg2.jpg",
+          "assets/img/bg/bg3.jpg",
+          "assets/img/bg/bg4.jpg"
         ], {duration: 8000, fade: 500});
     });
     </script>
