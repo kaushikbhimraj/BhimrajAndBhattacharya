@@ -656,7 +656,7 @@ section {
 }
 
 .section-inner {
-    padding: 120px 0
+    padding: 60px 0
 }
 
 section h2.section-heading, .section-heading {
@@ -1250,7 +1250,7 @@ footer.white-wrapper .social-links li a {
     clear: both;
     display: block;
     margin: 15px 0 0;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 8px;
 }
@@ -1347,7 +1347,6 @@ footer.white-wrapper .social-links li a {
 /*-----------------------------------------------------------------------------------*/
 /*  19 - MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
-
 @media(min-width:767px) {
     header .intro-text {
         padding-top: 420px;
@@ -1421,8 +1420,8 @@ footer.white-wrapper .social-links li a {
           font-size: 46px;
     }
     .icon-tabs li .tabtitle {
-        font-size: 8px;
-        letter-spacing: 4px
+        font-size: 14px;
+        letter-spacing: 4px;
     }
     .dark-wrapper .icon-tabs li {
         border-right: none;
@@ -1438,11 +1437,34 @@ footer.white-wrapper .social-links li a {
     }
 }
 
+
 @media(max-width:460px) {
     .fullheight, .fullheight .article-slide, .fullheight .article-slide .carousel-inner, .fullheight .article-slide .item, .fullheight .article-slide .item img {
         height: auto!important;
         min-height: 400px
     }
+
+    .icon-tabs .fa-4x {
+        font-size: 46px;
+    }
+    .icon-tabs li .tabtitle {
+      font-size: 14px;
+      letter-spacing: 4px;
+      margin-left: 30%;
+      margin-right: 30%;
+    }
+    .dark-wrapper .icon-tabs li {
+      border-right: none;
+    }
+    .form-control.col-md-4, .dark-wrapper.form-control.col-md-4 {
+      width: 100% !important;
+    }
+    #when .lead{
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }    
 }
 
 .testimonial-owl .hover-item {
